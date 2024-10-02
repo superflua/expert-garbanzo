@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400&display=swap" rel="stylesheet">
+    <title>A Noite na Floresta</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/images (4).png" alt="Floresta">
+            <p>Era uma noite fria e escura. Clara decidiu explorar a floresta. Enquanto caminhava, ouviu um sussurro atrás dela. O que você faz?</p>
+            <button class="btn-proximo" data-proximo="1">Virar e investigar o som.</button>
+            <button class="btn-proximo" data-proximo="2">Ignorar e continuar caminhando.</button>
+        </div>
+
+        <div class="passo" id="passo-1">
+            <img src="img/images (3).png" alt="Sussurro">
+            <p>Clara se virou e viu uma sombra se movendo entre as árvores. Com medo, ela começou a correr. Mas a sombra a seguiu. O que você faz?</p>
+            <button class="btn-proximo" data-proximo="3">Correr para casa.</button>
+            <button class="btn-proximo" data-proximo="4">Parar e encarar a sombra.</button>
+        </div>
+
+        <div class="passo" id="passo-2">
+            <img src="img/the_cave_by_inspectorpepe-d5towvp-1-1024x576.jpg" alt="Caminhando">
+            <p>Clara decidiu ignorar o som e continuar. De repente, o chão se abriu sob seus pés e ela caiu em uma caverna escura. O que você faz?</p>
+            <button class="btn-proximo" data-proximo="5">Explorar a caverna.</button>
+            <button class="btn-proximo" data-proximo="6">Gritar por ajuda.</button>
+        </div>
+
+        <div class="passo" id="passo-3">
+            <img src="img/beetlejuice-1540935518.png" alt="Casa">
+            <p>Clara correu o mais rápido que pôde e chegou em casa. Mas, ao olhar pela janela, viu a sombra parada em seu quintal. Ela estava em perigo. Fim.</p>
+            <button class="btn-restart">Recomeçar a história.</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/25d936ddda1933393a8cfe854de20e77.jpg" alt="Encarar Sombra">
+            <p>Clara encarou a sombra, que revelou ser um espírito perdido. Ele a advertiu sobre os perigos da floresta e a deixou voltar para casa em segurança. Fim.</p>
+            <button class="btn-restart">Recomeçar a história.</button>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <img src="img/the_cave_by_inspectorpepe-d5towvp-1-1024x576.jpg" alt="Caverna">
+            <p>Dentro da caverna, Clara encontrou um amuleto antigo. Ao tocá-lo, a caverna começou a desmoronar. O que você faz?</p>
+            <button class="btn-proximo" data-proximo="7">Tentar sair correndo.</button>
+            <button class="btn-proximo" data-proximo="8">Ficar e investigar o amuleto.</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <img src="img/vida no umbral.jpg" alt="Gritar por Ajuda">
+            <p>Clara gritou por ajuda, mas apenas o eco de sua voz respondeu. A escuridão a cercou, e ela se perdeu. Fim.</p>
+            <button class="btn-restart">Recomeçar a história.</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <img src="img/umbral2.jpg" alt="Fuga da Caverna">
+            <p>Clara conseguiu escapar da caverna, mas a floresta estava ainda mais sombria. Ela sentiu que algo a observava. Fim.</p>
+            <button class="btn-restart">Recomeçar a história.</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <img src="img/Sem Título-1.jpg" alt="Investigar Amuleto">
+            <p>Ao investigar o amuleto, Clara foi transportada para outra dimensão, onde as sombras ganhavam vida. Fim.</p>
+            <button class="btn-restart">Recomeçar a história.</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
